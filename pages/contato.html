@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DC Advogados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contato.css" />
+  </head>
+  <head>
+    <!-- Cabeçalho -->
+    <header class="container-header-cabecalho">
+      <div class="container-div-cabecalho">
+        <img src="../assets/logo.png" alt="logo Dc Advogados" />
+        <nav class="container-nav-cabecalho">
+          <ul class="container-ul-cabecalho">
+            <li>
+              <a href="/index.html">Voltar para Home</a>
+            </li>
+
+            <li>
+              <a href="./pages/contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--page-form-->
+    <main>
+      <section class="container-section-contato">
+        <div class="container-div-contato">
+          <div class="container-div-text-img-form">
+            <h2>Contato</h2>
+            <p>
+              Entre em contato conosco para mais informações ou agendar uma
+              consulta. Estamos aqui para ajudar!
+            </p>
+            <div class="container-div-imgs">
+              <div class="container-div-imgs">
+                <img src="../assets/telefone.png" alt="telefone" />
+                <p>(11) 9999-9999</p>
+              </div>
+              <div  class="container-div-imgs">
+                <img src="../assets/email.png" alt="email" />
+                <p>dcadvogadosassociados@mail.com.br</p>
+              </div>
+              <div  class="container-div-imgs">
+                <img src="../assets/pino.png" alt="pino" />
+                <p>Avenida Monsenhor Pereira Mota, 2020, Sala 3005.</p>
+              </div>
+            </div>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name"
+                name="name" placeholder="Nome Completo" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="" id="mensagem" placeholder="Digite uma Mensagem" rows="5" required></textarea>
+                <div id="button-form">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </head>
+</html>
