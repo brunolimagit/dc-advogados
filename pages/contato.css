@@ -1,60 +1,165 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    position: relative;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  header{
-    position: sticky;
-    z-index: 3;
-  }
-  
-  /* Cabeçalho */
-  
-  .container-header-cabecalho {
-    background-color: #1a2b4b;
-    border-bottom: 1.5rem solid #b68954;
-    display: flex;
-    justify-content: center;
-    padding: 2.5rem;
-  }
-  
-  .container-div-cabecalho {
-    width: 85%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .container-ul-cabecalho {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-  }
-  
-  .container-ul-cabecalho li {
-    list-style: none;
-  }
-  
-  .container-ul-cabecalho li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 1.25rem;
-  }
-  
-  .container-ul-cabecalho li a:hover {
-    color: #b68954;
-    border-top: 0.38rem solid #b68954;
-    border-bottom: 0.38rem solid #b68954;
-    padding: 0.75rem 0;
-    transition: 0.4s ease;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+/* Cabeçalho */
+
+.container-header-cabecalho {
+  background-color: #1a2b4b;
+  border-bottom: 1.5rem solid #b68954;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.container-div-cabecalho {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-ul-cabecalho {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container-ul-cabecalho li {
+  list-style: none;
+}
+
+.container-ul-cabecalho li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.container-ul-cabecalho li a:hover {
+  color: #b68954;
+  border-top: 0.38rem solid #b68954;
+  border-bottom: 0.38rem solid #b68954;
+  padding: 0.75rem 0;
+  transition: 0.4s ease;
+}
+/*page de contato*/
+
+.container-section-contato {
+  display: flex;
+  margin: 2rem 0;
+}
+.container-div-contato {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+  justify-content: center;
+  margin-left: 13%;
+}
+.container-div-text-img-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.container-div-imgs {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+.container-div-imgs p {
+  padding-left: 1.2rem;
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container-div-text-img-form h2 {
+  font-size: 2.5rem;
+  border-left: 0.38rem solid #b68954;
+  padding-left: 1.2rem;
+  color: #1a2b4b;
+}
+
+.container-div-text-img-form p {
+  font-size: 1.3rem;
+  color: #1a2b4b;
+}
+.container-form {
+  background-color: #1a2b4b;
+  padding: 2rem;
+  color: white;
+  font-size: 1.3rem;
+}
+/*inputs*/
+.container-form input {
+  cursor: default;
+  width: 400px;
+  padding: 1rem;
+  margin: 1rem 0;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  border: 3px solid white;
+}
+input:focus {
+  border: 3px solid #b68954;
+}
+
+.container-form textarea {
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  border: 3px solid white;
+}
+textarea:focus {
+  border: 3px solid #b68954;
+}
+#container-div-button {
+  display: flex;
+  justify-content: end;
+}
+#button-form {
+  background-color: #b68954;
+  width: fit-content;
+  padding: 0.7rem 2rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  transition: 0.4s ease;
+  border: none;
+  cursor: pointer;
+}
+#container-div-form :hover {
+  background-color: #b6a38d;
+}
+footer {
+  background-color: #b68954;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-weight: 700;
+}
